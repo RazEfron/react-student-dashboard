@@ -28,7 +28,7 @@ There are no tests as part of this project. Instead, focus on making sure featur
 
 This project includes some existing code which will help you complete the features below.
 
-- [`src/data/data.json`](./src/data/data.json): This contains data for over 200 students. Each student multiple properties associated with them. Some important ones include:
+- [`src/data/data.json`](./src/data/data.json): This contains data for over 200 students. Each student multiple properties associated with them. Some important ones include but are not limited to:
   - `id`: A unique ID associated with each student.
   - `profilePhoto`: A randomly generated photo from [fakerface.rest](https://fakerface.rest).
   - `cohort`: An object represent which "cohort" the student is in.
@@ -38,6 +38,10 @@ This project includes some existing code which will help you complete the featur
 Each of the features below will count as 1 point towards your overall score. While there is a styled website to serve as a reference, you are not required to style the page unless the feature specifically asks you to do so.
 
 _Take careful note of the requirements._ Sometimes an image will show slightly more or slightly less than what you need to score the point.
+
+## ✩ Finished landing page
+
+![finished-landing](./instruction-assets/full-landing.png)
 
 ### ✩ Student list (1 point)
 
@@ -92,11 +96,11 @@ Update your interactive student list so that the following is true:
 
 - The title is always in a human readable format. (e.g. "All Students" or "Winter 2026" instead of "Winter2026".)
 - The student's birthday is visible underneath their username.
-- The student is shown on "On Track to Graduate" if the following is true:
-  - The student has a resume certification (e.g. `certifications.resume` is `true`).
-  - The student has a LinkedIn certification (e.g. `certifications.linkedin` is `true`).
-  - The student has a GitHub certification (e.g. `certifications.github` is `true`).
-  - The student has a mock interview certification (e.g. `certifications.mockInterview` is `true`).
+- The student is shown on "On Track to Graduate" only if *all* the following is true:
+  - The student has a resume certification (e.g. `certifications.resume` is `true`). and
+  - The student has a LinkedIn certification (e.g. `certifications.linkedin` is `true`). and
+  - The student has a GitHub certification (e.g. `certifications.github` is `true`). and
+  - The student has a mock interview certification (e.g. `certifications.mockInterview` is `true`). and
   - The student has a current CodeWars score that is over 600.
 
 > **Tip:** Working with dates can be difficult! Consider viewing the documentation on [Dates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) as well as the documentation on the [`Intl.DateTimeFormat()` constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat).
