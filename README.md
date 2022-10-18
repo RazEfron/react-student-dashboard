@@ -39,7 +39,7 @@ Each of the features below will count as 1 point towards your overall score. Whi
 
 _Take careful note of the requirements._ Sometimes an image will show slightly more or slightly less than what you need to score the point.
 
-## ✩ Finished landing page
+## Finished landing page
 
 ![finished-landing](./instruction-assets/full-landing.png)
 
